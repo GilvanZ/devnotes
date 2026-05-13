@@ -65,7 +65,7 @@ export default function Home() {
         ><ArrowRight/></button>}
 
       </div>
-          <div className='h-200 text-4xl whitespace-pre-wrap'>
+          <div className='h-200 text-2xl whitespace-pre-wrap'>
           {selected &&(
             <InfoCard 
             theme={selected.theme} 
