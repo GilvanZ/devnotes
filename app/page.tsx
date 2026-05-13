@@ -39,6 +39,8 @@ export default function Home() {
           theme={i.theme} 
           image={i.image}
           onClick={()=> handleSelect(i)}
+          descricao={i.descricao}
+          infoImg={i.infoImg}
           />
 
         ))}
