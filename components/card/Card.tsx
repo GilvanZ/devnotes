@@ -5,7 +5,7 @@ interface CardProps{
   image:string
   descricao?:string
   infoImg?:string
-  onClick:(receivePropsOfClickedCard:CardProps) => void
+  onClick:() => void
 }
 
 export default function Card({theme,image, descricao,infoImg, onClick}:CardProps) {
