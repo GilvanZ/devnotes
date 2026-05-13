@@ -3,7 +3,7 @@
 interface CardProps{
   theme:string
   image:string
-  descricao:string
+  descricao?:string
   infoImg?:string
   onClick:(receivePropsOfClickedCard:CardProps) => void
 }
