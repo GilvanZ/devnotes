@@ -3,9 +3,9 @@ import Card from "../card/Card"
 
 interface infoCardProps{
     theme:string;
-    image:string;
-    descricao:string;
-    infoImage:string;
+    image?:string;
+    descricao?:string;
+    infoImage?:string;
 }
 
 
