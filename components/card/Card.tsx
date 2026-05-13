@@ -4,7 +4,7 @@ interface CardProps{
   theme:string
   image:string
   descricao:string
-  infoImg:string
+  infoImg?:string
   onClick:(receivePropsOfClickedCard:CardProps) => void
 }
 
