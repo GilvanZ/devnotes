@@ -193,5 +193,12 @@ bg-white/10
 backdrop-blur
 border border-white/20
 rounded`
+  },
+  {
+    id: 13,
+    theme: "Iniciar aplicação em next",
+    image: "/cardImg/free-tailwind-icon@2x.png",
+    infoImg: "/cardImg/next.png",
+    descricao: `: npx create-next-app@latest src`
   }
 ]
